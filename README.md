@@ -2,7 +2,7 @@
 
 ### how to use
 
+copy object from [bunadmin-plugins](https://github.com/bunred/bunadmin-plugins/blob/master/navigation/authentication/bunred/bunadmin-plugin-buncms-user.json) into array (:bunadmin/plugins-info.json)
 ```
-cd [bunadmin path]/plugins/
-git clone https://github.com/bunred/bunadmin-plugin-buncms-user.git buncms-user
+node plugins-update.js
 ```
