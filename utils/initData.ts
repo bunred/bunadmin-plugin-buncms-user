@@ -1,14 +1,12 @@
-import { name } from "../package.json"
-import { Collection as Schema } from "@/core/schema/collections"
-import { Collection as Menu } from "@/core/menu/collections"
+import { Schema, Menu } from "@bunred/bunadmin";
 
-const BunadminSchema = Schema.name
-const BunadminMenu = Menu.name
+const BunadminSchema = Schema.name;
+const BunadminMenu = Menu.name;
 
-const created_at = Date.now()
+const created_at = Date.now();
 
 export default {
-  plugin: name,
+  plugin: "buncms-user",
   list: [
     {
       name: BunadminSchema,
@@ -51,4 +49,4 @@ export default {
       ]
     }
   ]
-}
+};

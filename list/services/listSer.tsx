@@ -2,9 +2,7 @@
  * Remote data controller
  */
 import { Query } from "material-table"
-import request from "@/utils/scripts/request"
-import storedToken from "@/utils/scripts/storedToken"
-import { ENV } from "@/utils/config"
+import { ENV, request, storedToken } from "@bunred/bunadmin"
 
 export default async function listSer(query: Query<any>) {
   const { page, pageSize } = query
