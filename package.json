@@ -1,6 +1,6 @@
 {
   "name": "bunadmin-plugin-auth",
-  "version": "1.0.0-alpha.3",
+  "version": "1.0.0-alpha.5",
   "license": "Apache-2.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,7 +8,7 @@
     "dist"
   ],
   "dependencies": {
-    "@bunred/bunadmin": "^1.1.0-alpha.1"
+    "@bunred/bunadmin": "^1.1.0-alpha.5"
   },
   "devDependencies": {
     "prettier": "1.19.1",
