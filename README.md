@@ -1,8 +1,3 @@
-# bunadmin-plugin-buncms-user
+# bunadmin plugin
 
-### how to use
-
-copy object from [bunadmin-plugins](https://github.com/bunred/bunadmin-plugins/blob/master/navigation/authentication/bunred/bunadmin-plugin-buncms-user.json) into array (:bunadmin/plugins-info.json)
-```
-node plugins-update.js
-```
+This repository have been moved here: [bunred/bunadmin](https://github.com/bunred/bunadmin/tree/master/plugins/bunadmin-auth-buncms)
